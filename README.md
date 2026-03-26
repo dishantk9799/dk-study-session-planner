@@ -49,6 +49,18 @@ Organize your study sessions, track your progress, and stay focused on your goal
 - Total Duration → using `reduce()`
 
 ---
+
+## 💾 LocalStorage Integration
+
+To ensure data persistence, this project uses **localStorage** to store study sessions.
+
+### 🔹 How it works
+
+- When a session is added → it is saved in localStorage  
+- When the page reloads → sessions are loaded from localStorage  
+- When a session is deleted → it is removed from localStorage  
+
+---
 ## 🙌 Author
 
 Dishant Kumawat
