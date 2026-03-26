@@ -29,11 +29,11 @@ const SessionList = () => {
             <div className='flex w-full gap-2'>
                 <div className='w-1/2 rounded-md bg-zinc-950 p-4'>
                     <p className='text-sm'>TOTAL SESSIONS</p>
-                    <h3 className='text-2xl text-blue-500 font-bold'>{sessions.length}</h3>
+                    <h3 className='text-2xl text-blue-500 font-bold duration-200'>{sessions.length}</h3>
                 </div>
                 <div className='flex-1 rounded-md bg-zinc-950 p-4'>
                     <p className='text-sm'>TOTAL DURATION</p>
-                    <h3 className='text-2xl text-blue-500 font-bold'>{totalDuration} m</h3>
+                    <h3 className='text-2xl text-blue-500 font-bold duration-200'>{totalDuration}m</h3>
                 </div>
             </div>
 
