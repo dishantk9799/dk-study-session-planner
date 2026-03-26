@@ -23,7 +23,7 @@ const SessionCard = ({ item }) => {
                             ${item.priority === "Low" && "bg-green-400/10 border-green-400 text-green-500"}
                             ${item.priority === "Medium" && "bg-yellow-400/10 border-yellow-400 text-yellow-500"}
                             ${item.priority === "High" && "bg-red-400/10 border-red-400 text-red-500"}`}>
-                        {item.priority} Priority
+                        {item.priority}
                     </span>
                     <div className='flex gap-2'>
                         <button onClick={() => setComplete(prev => !prev)} className={`flex text-sm md:text-base gap-0.5 items-center border ${complete ? "text-green-400 rounded-md border-green-400  hover:cursor-pointer hover:border-green-500 hover:text-green-400 hover:bg-green-400/20" : "text-blue-400 rounded-md border-blue-400 hover:border-blue-500 hover:text-blue-400 hover:bg-blue-400/20"} hover:cursor-pointer duration-200 px-1 md:px-2 py-1`}><TiTick />{complete ? "Complete" : "Incomplete"}</button>
