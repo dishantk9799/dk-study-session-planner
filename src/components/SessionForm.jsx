@@ -7,7 +7,6 @@ const SessionForm = () => {
     const { register, reset, handleSubmit, formState: { errors, isSubmitting } } = useForm();
     const handleSub = (data) => {
         addSession(data);
-        console.log(sessions)
         reset();
     }
     return (
